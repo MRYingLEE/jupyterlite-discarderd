@@ -1,6 +1,6 @@
 {
-  "name": "@jupyterlite/root",
-  "version": "0.5.1",
+  "name": "@jupyterlite/application",
+  "version": "0.1.0",
   "private": true,
   "homepage": "https://github.com/jupyterlite/jupyterlite",
   "bugs": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jupyterlite/jupyterlite"
+    "url": "https://github.com/MRYingLEE/jupyterlite.git"
   },
   "license": "BSD-3-Clause",
   "author": "JupyterLite Contributors",
