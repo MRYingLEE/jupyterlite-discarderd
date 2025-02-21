@@ -7,7 +7,7 @@ import { IObservableMap } from '@jupyterlab/observables';
 
 import { Kernel, KernelMessage, KernelSpec } from '@jupyterlab/services';
 
-import { Token } from '@lumino/coreutils';
+import {JSONObject, Token } from '@lumino/coreutils';
 
 import { IObservableDisposable } from '@lumino/disposable';
 
@@ -181,6 +181,7 @@ export interface IWorkerKernel {
   execute(
     content: KernelMessage.IExecuteRequestMsg['content'],
     parent: any,
+    metadata: JSONObject
   ): Promise<KernelMessage.IExecuteReplyMsg['content']>;
   complete(
     content: KernelMessage.ICompleteRequestMsg['content'],
