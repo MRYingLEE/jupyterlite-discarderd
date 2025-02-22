@@ -1,6 +1,6 @@
 [project]
 name = "jupyterlite-root"
-version = "0.5.1"
+version = "0.5.91"
 
 [tool.jupyter-releaser]
 skip = [ "build-python", "check-links", "check-python",]
