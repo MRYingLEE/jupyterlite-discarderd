@@ -11,3 +11,4 @@ jupyterlab >=4.4.0b0,<4.5
 # TODO: remove pin once working with twine
 # https://github.com/pypa/twine/pull/1126
 importlib_metadata
+jupyterlab_sos
